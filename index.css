@@ -27,7 +27,7 @@ form{
 form input{
     background: white;
     border: none;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding:0.5rem;
     font-family: 'Poppins', sans-serif;
     
@@ -64,7 +64,7 @@ color: white;
    margin: 1.5rem;
     background-color: white;
     color: #0f0f0f;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,13 +72,14 @@ color: white;
 }
 .box{
     display: flex;
-    box-shadow: 1px 1px 5px 1px wheat;
+      box-shadow: 1px 1px 5px 1px rgb(108, 204, 108);
 }
 .todo-button{
 cursor: pointer;
 }
 .todo li{
 flex: 1;
+    font-size: 1rem;
 text-transform: capitalize;
 padding: 0rem 1rem;
 }
@@ -143,6 +144,7 @@ margin-top: 2.5rem;
 }
 
 select{
+    background-color:white;
     color: rgb(108, 204, 108);
     width: 10rem;
     cursor: pointer;
