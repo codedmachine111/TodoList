@@ -23,7 +23,7 @@ form{
     justify-content: center;
     align-items: center;
 }
-#diff{
+span{
     color:rgb(108, 204, 108);
 }
 form input{
